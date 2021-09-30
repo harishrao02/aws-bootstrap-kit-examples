@@ -9,7 +9,7 @@
     "github_repo_name": "aws-bootstrap-kit-examples",
     "github_repo_branch": "main",
     "email": "harishyadavdce@gmail.com",
-    "force_email_verification": true,
+    "force_email_verification": false,
     "pipeline_deployable_regions": [
       "eu-west-1"
     ]
