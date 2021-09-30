@@ -30,15 +30,7 @@ const thirdPartyProviderDNSUsed = app.node.tryGetContext("third_party_provider_d
 const forceEmailVerification = app.node.tryGetContext("force_email_verification");
 const pipelineDeployableRegions = app.node.tryGetContext("pipeline_deployable_regions");
 const nestedOU = [
-    {
-        name: 'SharedServices',
-        accounts: [
-            {
-                name: 'CICD',
-                type: AccountType.CICD
-            }
-        ]
-    },
+    
     {
         name: 'SDLC',
         accounts: [
